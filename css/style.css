@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightskyblue;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    color: lightslategray;
+}
+section {
+    background-color: linen;
+    max-width: 780px;
+    text-align: center;
+    margin: 12px auto;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+section .foto img {
+    max-width: 360px;
+    height: 360px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+}
+
+footer {
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+}
+
